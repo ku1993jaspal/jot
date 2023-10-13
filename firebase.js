@@ -6,7 +6,7 @@ const firebaseConfig = {
   projectId: "check-ab03a",
   storageBucket: "check-ab03a.appspot.com",
   messagingSenderId: "803438337032",
-  appId: "1:803438337032:web:f4aa70bd7192edc50785bd
+  appId: "1:803438337032:web:f4aa70bd7192edc50785bd"
  
   };
 
